@@ -164,7 +164,7 @@ else
 fi
 
 git read-tree -mu HEAD
-//CURRENT_BRANCH=`git symbolic-ref --short HEAD`
+#CURRENT_BRANCH=`git symbolic-ref --short HEAD`
 
 if [ "$INPUT_FILE" ]; then
   for PKG_NAME in `cat $INPUT_FILE`; do
